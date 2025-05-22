@@ -7,10 +7,10 @@ At Balancee we face a challenge: customers who book appointments but don't show 
 2. Lost Revenue Opportunities- Booked time slots are unavailable to other customers. When someone no-shows, the company loses potential revenue from customers who would have actually shown up for the repair. 
 The Solution 
 The goal was to build a predictive model that identifies which customers are likely to miss their appointments. By predicting no-shows in advance, the company can: 
- 1.     Send targeted reminders to high-risk customers 
- 2.     Overbook strategically to compensate for expected no-shows 
- 3.     Allocate resources more efficiently 
- 4.     Reduce revenue losses from empty time slots 
+ - 1. Send targeted reminders to high-risk customers 
+ - 2. Overbook strategically to compensate for expected no-shows 
+ - 3. Allocate resources more efficiently 
+ - 4. Reduce revenue losses from empty time slots 
 This predictive approach helps transform an unpredictable problem into a manageable business process. 
 Approach 
 The goal is to predict no-shows (no_show: 0 = attended, 1 = no-show) for car service appointments using the dataset provided contains (1200 rows, 21 columns). 
