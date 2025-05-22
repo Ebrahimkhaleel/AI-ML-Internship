@@ -14,6 +14,7 @@ The goal was to build a predictive model that identifies which customers are lik
 This predictive approach helps transform an unpredictable problem into a manageable business process. 
 Approach 
 The goal is to predict no-shows (no_show: 0 = attended, 1 = no-show) for car service appointments using the dataset provided contains (1200 rows, 21 columns). 
+
 Data Cleaning
 1.	How I handled missing values: by imputing numerical columns with the median and categorical columns with the mode.
 2.	Converted first_time_user to binary (0 = no, 1 = yes).
